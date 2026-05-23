@@ -66,7 +66,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 child: Text(
                   'see all',
-                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal),
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal, color: Colors.blue),
                 ),
               ),
             ],
