@@ -48,7 +48,13 @@ flutter pub get
 ```bash
 flutter run
 ```
+## Screenshots
 
+### Home Screen
+![Home Screen](screenshots/home.png)
+
+### Details Screen
+![Details Screen](screenshots/details.png)
 ---
 
 ## Student Information
