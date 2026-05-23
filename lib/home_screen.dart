@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 child: Text(
-                  'see all',
+                  'see all    ',
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
                 ),
               ),
