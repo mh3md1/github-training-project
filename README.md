@@ -1,17 +1,57 @@
-# fb_test
+# github-training-project
 
-A new Flutter project.
+## Project Description
+A Flutter mobile application created for GitHub training and practice on Git commands, branches, and collaboration workflows.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- Flutter
+- Dart
+- Git
+- GitHub
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Home Screen
+![Home Screen](screenshots/home.png)
+
+### Details Screen
+![Details Screen](screenshots/details.png)
+
+---
+
+## How to Run the Project
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/mh3md1/github-training-project.git
+```
+
+2. Open the project
+
+```bash
+cd github-training-project
+```
+
+3. Install dependencies
+
+```bash
+flutter pub get
+```
+
+4. Run the application
+
+```bash
+flutter run
+```
+
+---
+
+## Student Information
+
+- Student Name: mohammed hamdona
+- Major: Mobile Application Development
