@@ -32,6 +32,31 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
 
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Row(
+            children: [
+              Text(
+                'Categories',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
+              Spacer(),
+              TextButton(
+                onPressed: () {},
+                style: TextButton.styleFrom(
+                  visualDensity: VisualDensity(
+                    vertical: VisualDensity.minimumDensity,
+                  ),
+                ),
+                child: Text(
+                  'see all',
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
+              ),
+            ],
+          ),
+        ),
+
         ConstrainedBox(
           constraints: BoxConstraints(maxHeight: 100),
           child: GridView.builder(
@@ -66,7 +91,11 @@ class HomeScreen extends StatelessWidget {
                 ),
                 child: Text(
                   'see all',
-                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal, color: Colors.blue),
+                  style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.normal,
+                    color: Colors.blue,
+                  ),
                 ),
               ),
             ],
@@ -125,22 +154,6 @@ class HomeScreen extends StatelessWidget {
           shrinkWrap: true,
           itemCount: 10,
         ),
-
-        // SizedBox(
-        //   height: 100,
-        //   child: ListView.builder(
-        //     itemBuilder: (context, index) {
-        //       return Container(
-        //         color: Colors.green.shade200,
-        //         width: 100,
-        //         margin: EdgeInsetsDirectional.only(end: 5, start: 5),
-        //       );
-        //     },
-        //     itemCount: 20,
-        //     scrollDirection: Axis.horizontal,
-        //     // shrinkWrap: true,
-        //   ),
-        // ),
       ],
     );
   }
