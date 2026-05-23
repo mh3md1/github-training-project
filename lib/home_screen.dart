@@ -54,7 +54,7 @@ class HomeScreen extends StatelessWidget {
             children: [
               Text(
                 'Latest Product',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal),
               ),
               Spacer(),
               TextButton(
@@ -66,7 +66,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 child: Text(
                   'see all',
-                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal),
                 ),
               ),
             ],
@@ -94,7 +94,7 @@ class HomeScreen extends StatelessWidget {
             children: [
               Text(
                 'Famous Product',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal),
               ),
               Spacer(),
               TextButton(
@@ -106,7 +106,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 child: Text(
                   'see all',
-                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.normal),
                 ),
               ),
             ],
